@@ -118,7 +118,7 @@ def pandas_analysis():
 
 def show_chart():
     if not consumption_log:
-        print("⚠ No data for graph")
+        print("No data for graph")
         return
 
     df = pd.DataFrame(consumption_log)
